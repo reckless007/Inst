@@ -1,0 +1,25 @@
+
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>Instagram</ion-title>
+    <ion-buttons end>
+    <button ion-button icon-only>
+    <ion-icon name="ios-send-outline"></ion-icon>
+    </button>
+    </ion-buttons>
+    </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+    <ion-tabs>
+        <ion-tab tabIcon="home" [root]="tab1"></ion-tab>
+        <ion-tab tabIcon="search" [root]="tab2"></ion-tab>
+        <ion-tab tabIcon="add" [root]="tab3"></ion-tab>
+        <ion-tab tabIcon="heart-outline" [root]="tab4"></ion-tab>
+        <ion-tab tabIcon="person" [root]="tab5"></ion-tab>
+      </ion-tabs>
+
+</ion-content>
